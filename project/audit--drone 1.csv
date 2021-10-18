@@ -1,0 +1,11 @@
+Audit file for Drone,
+scheduled package ,<package 1>
+ , X, Y, Z
+position ,<-255.994,257.798,-296.859>
+scheduled customer ,<customer 0>
+ , X, Y, Z
+position ,<-951.412,254.665,298.271>
+Distance from drone to package,2119.29
+Distance from package to customer,2115.31
+Total Distance,4234.6
+path Type,beeline

@@ -1,0 +1,30 @@
+Leader: Cooper Zhao(zhao0888)
+
+Date:
+April 16th
+
+Who you worked with:
+Tian Liu(liu00839), Yuancan Zhang(zhan5684),  Zhenyu Yang(yang6067)
+
+What you needed help with:
+Figuring out the logic for implememt the strategy patern.
+
+
+Date:
+April 17th
+
+Who you worked with:
+Tian Liu(liu00839), Yuancan Zhang(zhan5684),  Zhenyu Yang(yang6067)
+
+What you needed help with:
+Figuring out how to implement the Parabolic route.
+
+
+Date:
+April 19th
+
+Who you worked with:
+Tian Liu(liu00839), Yuancan Zhang(zhan5684),  Zhenyu Yang(yang6067)
+
+What you needed help with:
+Writing the google test for the Smart, Beeline and Parabolic route. 
