@@ -69,12 +69,12 @@ Next, build the project web server
     bin/run.sh
     ```
 
-6.1 To run the web server on specific scene(eg., all_features_no_recharge_station.json)
+7. To run the web server on specific scene(eg., all_features_no_recharge_station.json)
     
     ```bash
     bin/run.sh scenes/<name_of_scene_file>
     ```
-7. Open up browser and browse to 
+8. Open up browser and browse to 
 
     ```bash
     http://127.0.0.1:8081/
