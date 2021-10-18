@@ -12,6 +12,7 @@
 The goal of this software project is to produce a package delivery system in which the simulation can be controlled via external configuration (without code change) and be visualized on a web browser. The simulation of this package delivery system is using three.js to create a 3D model of the University of Minnesota campus.
 In package delivery system, the robot/drone can detect the package, pick it up and deliver it to the designed customer in different speed and using different roue. 
 It provides users with functionalities to modified the scheduled customer position, delivery package position in the campus, speed of the drone and so on.
+The presentation slide can be found under the main folder called "Project_Description.pdf"
 
 
 
@@ -96,4 +97,13 @@ The project was implement with a route planning features for drone. The drone wi
 And, the design of route planning in this project was implemented in strategy pattern.
 
 ### Google Test and Doxygen
-This project was implemented with Unit Testing with Google Test, and Doxygen which could generate web pages to show the structure of this project.
+This project was implemented with Unit Testing with Google Test, and Doxygen 
+- **Doxygen**: which could automatically generates documentation of class and code structure (see http://www.doxygen.nl/manual/index.html and https://caiorss.github.io/C-Cpp-Notes/Doxygen-documentation.html). 
+- **Google Test**: Google Test, provides a powerful and convenient mechanism for testing the code. It does this without requiring user to modify the source code or pollute it with test statements.Tests primarily consist of a comparison of an expected result to a calculated result. If they match, the test is reported as passed, if not, it reports a fail. For unit tests, user will create a separate test for each class method, which is a collection of statements to compare expected and calculated results based on a variety of input.(see https://github.com/google/googletest)
+
+
+## UML Diagarm
+The UML diagram is a visual aid that helps other programmers better understand the code structure. It includes only those aspects that are essential.
+
+
+- **Google Test**: Google Test, provides a powerful and convenient mechanism for testing the code. It does this without requiring user to modify the source code or pollute it with test statements.Tests primarily consist of a comparison of an expected result to a calculated result. If they match, the test is reported as passed, if not, it reports a fail. For unit tests, user will create a separate test for each class method, which is a collection of statements to compare expected and calculated results based on a variety of input.(see https://github.com/google/googletest)
