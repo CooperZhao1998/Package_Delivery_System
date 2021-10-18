@@ -2,21 +2,28 @@
 
 /*! \mainpage CSCI 3081 Delivery Simulation project
 *
-* \section intro Introduction
-*
-*
-*   The purpose of this project is a simulation models that simulate a amazon drone picking up a
-    package from a designated location and delivery to the scheduled customer.
-    The simulation provides users with functionalities to modified the scheduled customer position,
-    delivery package position in the campus, speed of the drone and so on.
 
-* \section user User Guide and Introduction
-    This section provides guide to:
+
+
+## Table of Content
+
+- [Data](#Data)
+- [User_Segmentation](#User_Segmentation)
+- [Product&Brand&Category_Segmentation](#Product&Brand&Category_Segmentation)
+- [Sales](#Sales)
+
+
+## Introduction
+The purpose of this project is a simulation models that simulate a amazon drone picking up a package from a designated location and delivery to the scheduled customer.
+The simulation provides users with functionalities to modified the scheduled customer position, delivery package position in the campus, speed of the drone and so on.
+
+## User Guide and Introduction
+This section provides guide to:
     1: How to obtain the code
     2: How to compile the code
     3: How to run the simulation
 
-    ## How to obtain the code
+### How to obtain the code
     Create a new directory using mkdir:
     ```
     $ mkdir 3081_s21
