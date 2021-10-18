@@ -17,55 +17,55 @@ It provides users with functionalities to modified the scheduled customer positi
 
 ## User Guide
 This section provides guide to:
-    - How to obtain the code
-    - How to compile the code
-    - How to run the simulation
+- How to obtain the code
+- How to compile the code
+- How to run the simulation
 
 ### How to obtain the code
-    Create a new directory using mkdir:
+Create a new directory using mkdir:
     ```
-    $ mkdir 3081_s21
+    $ mkdir Package_Delivery_System
     ```
-    cd into the new directory:
+cd into the new directory:
     ```
-    $ cd 3081_s21
+    $ cd Package_Delivery_System
     ```
-    Use git clone to clone the remote repository, username and password will be required to gain full access to the repository:
+Use git clone to clone the remote repository, username and password will be required to gain full access to the repository:
     ```
     $ git clone https://github.umn.edu/umn-csci-3081-s21/repo-zhan5684.git
     ```
 
 ### How to compile the code
-    Navigate to base repo directory:
+Navigate to base repo directory:
     ```
     $ cd repo-zhan5684
     ```
-    Run docker, you need to configured dockers before using this command, and dos2unix can be used to convert file to readable format for docker.
+Run docker, you need to configured dockers before using this command, and dos2unix can be used to convert file to readable format for docker.
     ```
     $ bin/build-env.sh
 
     $ bin/run-env.sh
     ```
-    After successfully setup and ran the docker server, cd into the project folder
+After successfully setup and ran the docker server, cd into the project folder
     ```
     $ cd project
     ```
-    Use make
+Use make
     ```
     $ make
     ```
 
 ### How to run the code
-    in the project directory, run the docker file
+in the project directory, run the docker file
     ```
     $ bin/run.sh scenes/all_features_no_recharge_station.json
     ```
-    The server is successfully started, open browser and type in the server address
+The server is successfully started, open browser and type in the server address
     ```
     127.0.0.1:8081
     ```
 
-    we pick to complete the Drone statistic, the csv files will generated in the project/ folder once the delivery simulation complete.
+we pick to complete the Drone statistic, the csv files will generated in the project/ folder once the delivery simulation complete.
 
 
 ## Features Describtion
