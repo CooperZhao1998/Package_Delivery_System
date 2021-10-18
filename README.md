@@ -23,12 +23,12 @@ This section provides guide to:
 
 ### How to obtain the code
 Create a new directory using mkdir:
-    ```
+
     $ mkdir Package_Delivery_System
     
     ```
 cd into the new directory:
-    ```
+
     $ cd Package_Delivery_System
     ```
 Use git clone to clone the remote repository, username and password will be required to gain full access to the repository:
@@ -42,8 +42,9 @@ Navigate to base repo directory:
     $ cd repo-zhan5684
     ```
 Run docker, you need to configured dockers before using this command, and dos2unix can be used to convert file to readable format for docker.
-    ```
+
     $ bin/build-env.sh
+    
 
     $ bin/run-env.sh
     ```
