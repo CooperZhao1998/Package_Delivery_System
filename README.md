@@ -4,7 +4,7 @@
 ## Table of Content
 
 - [Introduction](#Introduction)
-- [Compiltion Guide](#Compiltion Guide)
+- [Compiltion Guide](#Compiltion_Guide)
 - [Features Describtion](#Features_Describtion)
 
 
@@ -15,7 +15,7 @@ It provides users with functionalities to modified the scheduled customer positi
 
 
 
-## Compiltion Guide
+## Compiltion_Guide
 
 
 ### Pre-requisites
@@ -52,7 +52,6 @@ It provides users with functionalities to modified the scheduled customer positi
 4. Run docker image
 
     ```bash
-    #Usage bin/run-env.sh <port - optional(default 8081)>
     bin/run-env.sh
     ```
 
@@ -83,7 +82,7 @@ Next, build the project web server
 
 
 
-## Features Describtion
+## Features_Describtion
 
 ### Statistics feature 
 Drone Statistics feature collectes the data from the simulation and output into csv file. The data contains the loactioin for the drone/robot, package and customer, the distance and duration time for the drone/robot to pick up the package, the path type choosed by the drone and deliever to the customer. The csv files contained in the project folder. This project was applied singleton pattern to implement this feature. 
