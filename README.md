@@ -25,6 +25,7 @@ This section provides guide to:
 Create a new directory using mkdir:
     ```
     $ mkdir Package_Delivery_System
+    
     ```
 cd into the new directory:
     ```
