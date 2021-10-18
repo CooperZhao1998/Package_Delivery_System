@@ -66,13 +66,13 @@ Next, build the project web server
 6. Run web server (inside docker image)
 
     ```bash
-    ./bin/run.sh
+    bin/run.sh
     ```
 
-6.1 To run the web server in different scene(eg., all_features_no_recharge_station.json)
+6.1 To run the web server on specific scene(eg., all_features_no_recharge_station.json)
     
     ```bash
-    bin/run.sh scenes/all_features_no_recharge_station.json
+    bin/run.sh scenes/<name_of_scene_file>
     ```
 7. Open up browser and browse to 
 
