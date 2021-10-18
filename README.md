@@ -105,5 +105,5 @@ This project was implemented with Unit Testing with Google Test, and Doxygen
 ## UML Diagarm
 The UML diagram is a visual aid that helps other programmers better understand the code structure. It includes only those aspects that are essential.
 
+![UML Diagram_3](https://user-images.githubusercontent.com/81413871/137817092-68e8a4a4-3e99-440b-839c-79cbab2268e3.png)
 
-- **Google Test**: Google Test, provides a powerful and convenient mechanism for testing the code. It does this without requiring user to modify the source code or pollute it with test statements.Tests primarily consist of a comparison of an expected result to a calculated result. If they match, the test is reported as passed, if not, it reports a fail. For unit tests, user will create a separate test for each class method, which is a collection of statements to compare expected and calculated results based on a variety of input.(see https://github.com/google/googletest)
