@@ -4,7 +4,7 @@
 ## Table of Content
 
 - [Introduction](#Introduction)
-- [User Guide](#User_Guide)
+- [Compiltion Guide](#Compiltion Guide)
 - [Features Describtion](#Features_Describtion)
 
 
@@ -15,56 +15,72 @@ It provides users with functionalities to modified the scheduled customer positi
 
 
 
-## User Guide
-This section provides guide to:
-- How to obtain the code
-- How to compile the code
-- How to run the simulation
+## Compiltion Guide
 
-### How to obtain the code
-Create a new directory using mkdir:
 
-    $ mkdir Package_Delivery_System
-    
-cd into the new directory:
+### Pre-requisites
+  * [Git](https://git-scm.com/)
 
-    $ cd Package_Delivery_System
+### Docker Pre-requisites
+  * Windows 10 Home
+    * Install [wsl2 and Ubuntu](https://www.youtube.com/watch?v=ilKQHAFeQR0&list=RDCMUCzLbHrU7U3cUDNQWWAqjceA&start_radio=1&t=7)
+  * Install [Docker Desktop](https://hub.docker.com/?overlay=onboarding) from [Docker Hub](https://hub.docker.com/)
+  * Linux
+    * Use [docker group instead of sudo](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 
-Use git clone to clone the remote repository, username and password will be required to gain full access to the repository:
-
-    $ git clone https://github.umn.edu/umn-csci-3081-s21/repo-zhan5684.git
 
 
 ### How to compile the code
-Navigate to base repo directory:
+1. Use git clone to clone the remote repository, username and password will be required to gain full access to the repository:
 
-    $ cd repo-zhan5684
+    ```bash
+    git clone https://github.com/CooperZhao1998/Package_Delivery_System.git
+    ```
+    
+2. Navigate to base repo directory:
 
-Run docker, you need to configured dockers before using this command, and dos2unix can be used to convert file to readable format for docker.
+    ```bash
+    cd Package_Delivery_System
+    ```
 
-    $ bin/build-env.sh   
+3. Build docker image
 
-    $ bin/run-env.sh
+    ```bash
+    bin/build-env.sh
+    ```
 
-After successfully setup and ran the docker server, cd into the project folder
+4. Run docker image
 
-    $ cd project
+    ```bash
+    #Usage bin/run-env.sh <port - optional(default 8081)>
+    bin/run-env.sh
+    ```
 
-Use make
+5. After successfully setup and ran the docker server, now you are inside the docker image. 
+Next, build the project web server
 
-    $ make
+    ```bash
+    cd project
+    make
+    ```
+    
+6. Run web server (inside docker image)
 
-### How to run the code
-in the project directory, run the docker file
+    ```bash
+    ./bin/run.sh
+    ```
 
-    $ bin/run.sh scenes/all_features_no_recharge_station.json
+6.1 To run the web server in different scene(eg., all_features_no_recharge_station.json)
+    
+    ```bash
+    bin/run.sh scenes/all_features_no_recharge_station.json
+    ```
+7. Open up browser and browse to 
 
-The server is successfully started, open browser and type in the server address
+    ```bash
+    http://127.0.0.1:8081/
+    ```
 
-    127.0.0.1:8081
-
-
-we pick to complete the Drone statistic, the csv files will generated in the project/ folder once the delivery simulation complete.
 
 
 ## Features Describtion
